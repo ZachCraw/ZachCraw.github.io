@@ -37,11 +37,11 @@
 	<div id="main">
 		<h2>I'm a <span id="age"></span> year-old developer</h2>
 		<h2>who uses
-			<span class="lang-button" style="color:#90c53f;" data-panel="nodejs">Python<span class="underline"
+			<span class="lang-button" style="color:#90c53f;" data-panel="python">Python<span class="underline"
 					style="background-color:#90c53f;"></span></span>,
-			<span class="lang-button" style="color: #5ec9f8;" data-panel="flutter">HTML/CSS/JS<span class="underline"
+			<span class="lang-button" style="color: #5ec9f8;" data-panel="html">HTML/CSS/JS<span class="underline"
 					style="background-color:#5ec9f8;"></span></span>,
-			<span class="lang-button" style="color: #f16529;" data-panel="htmlcss">SQL<span class="underline"
+			<span class="lang-button" style="color: #f16529;" data-panel="sql">SQL<span class="underline"
 					style="background-color:#f16529;"></span></span>, and
 			<span class="lang-button" style="color: #ffdd48;" data-panel="others">others<span class="underline"
 					style="background-color:#ffdd48;"></span></span>.
@@ -54,74 +54,75 @@
 			<path id="rectleft" />
 			<path id="rectright" />
 		</svg>
-		<div id="nodejs" class="lang-panel">
-			<h2><a href="https://nodejs.org/en/" target="_blank">Node.JS</a></h2>
-			<h3 class="lang-desc">Node is my language of choice for both <span>quick scripts</span> and for <span>web
-					servers</span> using <a href="https://expressjs.com/" target="_blank">Express</a>. I've been using
-				it for about <span>2 years</span> now, and I'd call myself <span>proficient</span>.</h3>
-			<div class="projects node" data-cat="nodejs">
-				<div data-proj="dickens" class="proj" style="background-image: url(img/dickens.png)">
-					<h3>Dickens Carolers</h3>
+		<div id="python" class="lang-panel">
+			<h2><a href="https://www.python.org/" target="_blank">Python</a></h2>
+			<h3 class="lang-desc">Python is my langauge of choice for both <span>quick scripts</span> and for <span> artifical
+					intelligence</span>. I've been using it for about <span>2 years</span>
+					 now, and I'd call myself <span>proficient</span>.</h3>
+			<div class="projects node" data-cat="python">
+				<div data-proj="MNIST" class="proj" style="background-image: url(img/MNIST.png)">
+					<h3>MNIST Neural Network</h3>
 				</div>
-				<div data-proj="growth_tracker" class="proj" style="background-image: url(img/growth_tracker.png)">
-					<h3>Growth Tracker</h3>
+				<div data-proj="assymetric_decryptor" class="proj" style="background-image: url(img/assymetric_decryptor.png)">
+					<h3>Assymetric Decryptor</h3>
 				</div>
-				<div data-proj="minesweeper_b" class="proj" style="background-image: url(img/minesweeper.png)">
-					<h3>Minesweeper Royale<br>(backend)</h3>
-				</div>
-			</div>
-		</div>
-		<div id="flutter" class="lang-panel">
-			<h2><a href="https://flutter.dev/" target="_blank">Flutter</a></h2>
-			<h3 class="lang-desc">Flutter, Google's framework for creating cross-platform (<span>iOS</span> and
-				<span>Android</span>) <span>mobile apps</span>, is my favorite language to work in. I've created 2
-				public and a few private apps over the <span>9 months</span> I've used it. I'm still learning new things
-				about it, but I'm <span>intermediate</span> overall.
-			</h3>
-			<div class="projects flutter" data-cat="flutter">
-				<div data-proj="dunabase" class="proj" style="background-image: url(img/dunabase.png)">
-					<h3>Dunabase</h3>
-				</div>
-				<div data-proj="source_mobile" class="proj" style="background-image: url(img/source.png)">
-					<h3>Source Mobile</h3>
-				</div>
-				<div data-proj="repertoire" class="proj" style="background-image: url(img/repertoire.png)">
-					<h3>Repertoire</h3>
+				<div data-proj="Powerline" class="proj" style="background-image: url(img/powerline.png)">
+					<h3>Powerline Physics Simulation</h3>
 				</div>
 			</div>
 		</div>
-		<div id="htmlcss" class="lang-panel">
+		<div id="html" class="lang-panel">
 			<h2><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML/CSS/JS</a></h2>
-			<h3 class="lang-desc">My first venture into programming, when I was <span>9 years old</span>, was an
-				incredibly awful website that was entirely HTML and a few inline styles. I've gotten just a <i>bit</i>
-				better since then &ndash; I'm still learning design principles,
-				but I'm <span>proficient</span> at this stack.
+			<h3 class="lang-desc">HTML/CSS/JS is quite a new vetnure for me, sepcifically website <span>front end</span> development. 
+				Although I used these languages frequently during highschool, I have only begun to frequently use them recreationally,
+				resulting in my experience only being around <span>15 months</span>. I'm still learning new things
+				about it, but I'd still consider myself quite <span>beginner</span> overall.
+			</h3>
+			<div class="projects flutter" data-cat="html">
+				<div data-proj="dunabase" class="proj" style="background-image: url(img/zachcraw.png)">
+					<h3>This Website Portfolio</h3>
+				</div>
+				<div data-proj="source_mobile" class="proj" style="background-image: url(img/lego.png)">
+					<h3>Lego Database Explorer<br>(frontend)</h3>
+				</div>
+				<div data-proj="repertoire" class="proj" style="background-image: url(img/firstaus.png)">
+					<h3>First Australia Part Database Explorer<br>(frontend)</h3>
+				</div>
+			</div>
+		</div>
+		<div id="sql" class="lang-panel">
+			<h2><a href="https://www.postgresql.org/docs/current/sql.html" target="_blank">SQL</a></h2>
+			<h3 class="lang-desc">My first language I learnt academicallly was in <span>grade 9</span>, this being <span>SQL</span>
+				allowed me to properly understand fundamentals about datastructures and overall queries and buisness systems.
+				Although this was a long time ago, I still use SQL to this day not only in SQL workbenches but in applied python libraries,
+				such as pandas and numpy. I would consider myself <span>proficient</span>.
 			</h3>
 			<div class="projects htmlcss" data-cat="htmlcss">
-				<div data-proj="makemehappy" class="proj" style="background-image: url(img/happy.png)">
-					<h3>MakeMeHappy</h3>
+				<div data-proj="makemehappy" class="proj" style="background-image: url(img/petshop.png)">
+					<h3>Pet Shop Buisness Managment App<br>(backend)</h3>
 				</div>
-				<div data-proj="portfolio" class="proj" style="background-image: url(img/profile.png)">
-					<h3>Portfolio</h3>
+				<div data-proj="portfolio" class="proj" style="background-image: url(img/lego.png)">
+					<h3>Lego Database Explorer<br>(backend)</h3>
 				</div>
-				<div data-proj="minesweeper_f" class="proj" style="background-image: url(img/minesweeper.png)">
-					<h3>Minesweeper Royale<br>(frontend)</h3>
+				<div data-proj="minesweeper_f" class="proj" style="background-image: url(img/firstaus.png)">
+					<h3>First Australia Part Database Explorer<br>(backend)</h3>
 				</div>
 			</div>
 		</div>
 		<div id="others" class="lang-panel">
 			<h2>Other skills</h2>
-			<h3 class="lang-desc">I've also worked in <span>Java</span>, <span>C++</span>, <span>C#</span> (although
-				since switching to Linux I haven't gotten much chance to use it), and a bit of <span>Python</span>.</h3>
+			<h3 class="lang-desc">I've also worked in <span>Sratch</span>, <span>C++</span>, <span>C#</span>, although C#
+				was my first language (around age <span>12</span>), I have not used it in a while, however, I plan to use <span>C++</span>
+				 alot more in the future.</h3>
 			<div class="projects others" data-cat="others">
-				<div data-proj="antislouch" class="proj" style="background-image: url(img/slouch.png)">
-					<h3>AntiSlouch</h3>
+				<div data-proj="antislouch" class="proj" style="background-image: url(img/parkour.png)">
+					<h3>Parkour VideoGame</h3>
 				</div>
-				<div data-proj="reqlang" class="proj" style="background-image: url(img/WIP.png)">
-					<h3>ReqLang</h3>
+				<div data-proj="reqlang" class="proj" style="background-image: url(img/weatherdetection.png)">
+					<h3>Weather Detection System</h3>
 				</div>
-				<div data-proj="ognes" class="proj" style="background-image: url(img/ognes.png)">
-					<h3>OGNes</h3>
+				<div data-proj="ognes" class="proj" style="background-image: url(img/agario.png)">
+					<h3>Agar.io Clone</h3>
 				</div>
 			</div>
 		</div>

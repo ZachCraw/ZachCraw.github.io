@@ -110,15 +110,15 @@ a.d {
 	margin: 10px auto;
 }
 
-#nodejs>.lang-desc>span {
+#python>.lang-desc>span {
 	color: #90c53f;
 }
 
-#flutter>.lang-desc>span {
+#html>.lang-desc>span {
 	color: #5ec9f8;
 }
 
-#htmlcss>.lang-desc>span {
+#sql>.lang-desc>span {
 	color: #f16529;
 }
 
